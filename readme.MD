@@ -12,11 +12,11 @@
 
 1. 拉取git 仓库代码 git clone https://github.com/sodyxiezhen/proxy.git
 2. 安装运行
-···
+```
 	cd proxy/
 	npm install
 	npm run startProxy
-···
+```
 3. 代码在app.js里面，这里用到了 express 和 http-proxy-middleware 中间件。实际上就是用node搭建一个服务器，监听6666端口，将所有请求都转发到指定的域名上去，这就是代理<br />
 ![444](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/proxy_code.png)
 
